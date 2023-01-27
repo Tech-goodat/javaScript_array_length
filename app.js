@@ -1,2 +1,4 @@
-const fruits=["mangoes", "tomatoes", "potatoes"];
-fruits[fruits.length]="kiwi";
+//concatenating arrays
+const fruits=['oranges', 'mangoes', 'tomatoes'];
+const gender=['boys', 'girls'];
+const general=fruits.concat(gender);
